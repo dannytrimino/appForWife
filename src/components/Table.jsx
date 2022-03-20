@@ -2,6 +2,7 @@ import React from "react";
 
 function Table() {
   return (
+    <div className="container">
     <table className="table table-striped">
       <thead>
         <tr>
@@ -32,6 +33,7 @@ function Table() {
         </tr>
       </tbody>
     </table>
+    </div>
   );
 }
 export default Table;
